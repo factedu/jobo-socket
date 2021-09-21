@@ -1,0 +1,37 @@
+{
+  "name": "jobo-socket",
+  "version": "1.0.0",
+  "description": "jobo socket.io server for jobo messenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/factedu/jobo-socket.git"
+  },
+  "keywords": [
+    "socket.io",
+    "node",
+    "express",
+    "jobo"
+  ],
+  "author": "Ravi S. Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/factedu/jobo-socket/issues"
+  },
+  "homepage": "https://github.com/factedu/jobo-socket#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "peer": "^0.6.1",
+    "socket.io": "^4.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

@@ -14,3 +14,6 @@ npm install
 npm run dev
 ```
 >Your socket server will be running at port 5000
+
+## Socket.io
+this automatically creates a socketjs running which can be used in html files.
